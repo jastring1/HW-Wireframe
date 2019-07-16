@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     text-align: center;
+   
   }
 
 .clearfix::after {
@@ -15,7 +16,6 @@ body{
     background: #777;
     width: 960px;
     font-size: 18px;
-    text-align: center;
 
 }
 
@@ -28,7 +28,15 @@ header{
     background: #ebebeb;
     color: #777;
 }
-#nav{
+footer{
+    height: 100px;
+    width: 100%;
+    background: #ebebeb;
+    color: #777;
+    margin-top: 20px;
+    padding: 30px;
+}
+.nav{
     background: #ebebeb;
     color: #777;
     width: 100%;
@@ -38,34 +46,44 @@ header{
     padding: 30px;
 }
 
-#article{
+article{
     color: #ebebeb;
     background: #777;
     
 }
 
-#h1{
+.arthead{
     color: #777;
     background: #ebebeb;
     
 }
 
-#p{
+.artp{
     color: #777;
     background: #ebebeb;
     
 }
 
-section{
+.container{
+    height: 400px;
+    width: 960px;
+}
+
+.section{
     background: #ebebeb;
     color: #777;
     padding: 40px;
-    float: left;
     width: 495px;
-    height: 33%;
-    overflow: auto;
+    height: 100%;
+    float: left;
 }
-#aside{
-
+aside{
+    background: #ebebeb;
+    color: #777;
+    float: left;
+    width: 445px;
+    height: 100%;
+    margin-left: 20px;
+    padding: 40px;
 
 }
