@@ -3,23 +3,18 @@
     text-align: center;
    
   }
-
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
   }
-
 body{
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     color: #ebebeb;
     background: #777;
     width: 960px;
     font-size: 18px;
-
 }
-
-
 header{
     width: 100%;
     height: 100px;
@@ -45,7 +40,6 @@ footer{
     margin-bottom: 20px;
     padding: 30px;
 }
-
 article{
     color: #ebebeb;
     background: #777;
@@ -53,7 +47,6 @@ article{
     margin-top: 20px;
     
 }
-
 .arthead{
     color: #777;
     background: #ebebeb;
@@ -62,7 +55,6 @@ article{
     padding:10px;
     
 }
-
 .artp{
     color: #777;
     background: #ebebeb;
@@ -70,12 +62,10 @@ article{
     padding: 10px;
     
 }
-
 .container{
     height: 300px;
     width: 960px;
 }
-
 .section{
     background: #ebebeb;
     color: #777;
